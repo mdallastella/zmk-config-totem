@@ -38,10 +38,10 @@
 
         sym_func {
             bindings = <
-           &kp ESC        &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none             &kp F1   &kp F2           &kp F3   &kp F4   &kp F5
-           &kp TAB        &kp LBKT              &kp RBKT               &kp ENTER         &kp BSLH          &kp F6   &kp F7           &kp F8   &kp F9   &kp F10
-&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F11  &kp F12          &kp F13  &kp F14  &kp F15  &kp F16
-                                                &trans                 &trans            &trans            &none    &kp RIGHT_SHIFT  &none
+        &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)      &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)       &kp LS(NUMBER_8)  &kp UNDERSCORE     &kp QUESTION
+        &trans            &kp LBKT          &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp GRAVE           &kp BACKSLASH     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &none
+&trans  &none             &none             &kp TILDE         &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE    &kp PLUS          &kp MINUS              &kp STAR          &kp SLASH          &none         &kp PRINTSCREEN
+                                            &trans            &trans                &trans              &trans            &trans                 &trans
             >;
         };
 
